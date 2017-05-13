@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/logo.ico">
+
+    <title>Latacunga</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/css/src/docs.css" rel="stylesheet">
+    <link href="../starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2|Lemonada|Oswald|PT+Sans+Narrow|Slabo+27px" rel="stylesheet"> 
+    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script> 
+    <script type="text/javascript" src="../cambiarin.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+    <style type="text/css">
+      .bs-example{
+          margin: 60px;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Radio Latacunga</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img width="150" height="60" src="../images/logoradio.png"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active" data-toggle="tooltip" data-placement="bottom" title="Entérate de Todo"><a href="../index.html">INICIO</a></li>
+            
+            <li class="dropdown">
+              <a href="" data-toggle="dropdown" class="dropdown-toggle">QUIENES SOMOS? <b class="caret"></b></a>
+              <ul class="dropdown-menu" id="menu1">
+                <li><a href="quienes_somos.html#mision">MISIÓN</a></li>
+                <li><a href="quienes_somos.html#vision">VISION</a></li>
+                <li><a href="quienes_somos.html#finalidad">FINALIDAD</a></li>
+                <li><a href="quienes_somos.html#objetivo">OBJETIVO</a></li>
+              </ul>
+            </li>
+
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Two Column <b class="caret"></b></a>
+              <ul class="dropdown-menu multi-column columns-2">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <ul class="multi-column-dropdown">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here that's extra long so we can see how it looks</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6">
+                    <ul class="multi-column-dropdown">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </ul>
+          </li>-->
+
+          <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">PROGRAMACIÓN<b class="caret"></b></a>
+            <ul class="dropdown-menu" id="menu1">
+              <li>
+                  <a href="programacion.html#lunesviernes">PROGRAMACIÓN DE LUNES A VIERNES <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+                  <ul class="dropdown-menu sub-menu">
+                      <li><a href="programacion.html#lunesviernes"><b>04H00 A 04H30:</b> SANTO ROSARIO</a></li>
+                      <li><a href="programacion.html#revistamiscelanea"><b>04h30 A 06H00:</b> Nuestra Palabra RADIO REVISTA MISCELANIA</a></li>
+                      <li><a href="programacion.html#informadori"><b>06H00 A 08H00:</b> EL INFORMADOR I</a></li>
+                      <li><a href="programacion.html#caminantes"><b>08H00 A 09H00:</b> CAMINANTES</a></li>
+                      <li><a href="programacion.html#mediodia"><b>09h00 A 12H00:</b> RUMBO AL MEDIO DIA</a></li>
+                      <li><a href="programacion.html#contactosur"><b>12h00 A 12h15:</b> INFORMATIVO CONTACTO SUR</a></li>
+                      <li><a href="programacion.html#ecuadorcontactoii"><b>12h15 A 12h30:</b> ECUADOR EN CONTACTO II</a></li>
+                      <li><a href="programacion.html#musicavariada"><b>12h30 A 14h00:</b> MUSICA VARIADA</a></li>
+                      <li><a href="programacion.html#sinlimites"><b>14h00 A 17h00:</b> SIN LIMITE</a></li>
+                      <li><a href="programacion.html#informadorii"><b>17h00 A 18h00:</b> EL INFORMADOR II</a></li>
+                      <li><a href="programacion.html#ecuadorcontactoiii"><b>18h00 A 18h30:</b> ECUADOR EN CONTACTO TERCERA EMISIÓN</a></li>
+                      <li><a href="programacion.html#ayllu"><b>18h30 A 21h00:</b> AYLLUYARISHUNCHIK</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="programacion.html#sabados">PROGRAMACIÓN SÁBADOS <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+                  <ul class="dropdown-menu sub-menu">
+                      <li><a href="programacion.html#sabados"><b>04H00 A 04H30:</b> SANTO ROSARIO</a></li>
+                      <li><a href="programacion.html#radiorevista"><b>04h30 A 06H00:</b> Nuestra Palabra RADIO REVISTA MISCELANIA</a></li>
+                      <li><a href="programacion.html#resumeninformativo"><b>06h00 A 07H00:</b> RESUMEN INFORMATIVO</a></li>
+                      <li><a href="programacion.html#contruyendopalabra"><b>07h00 A 08h00:</b> CONSTRUYENDO LA PALABRA</a></li>
+                      <li><a href="programacion.html#sabadoasabado"><b>08h00 A 10h00:</b> SABADO A SABADO</a></li>
+                      <li><a href="programacion.html#alpargatas"><b>13h00 A 18h00:</b> CHUQUIRAHUA Y ALPARGATAS</a></li>
+                      <li><a href="programacion.html#ayllui"><b>18h00 A 21h00:</b> AYLLUYARISHUNCHIK</a></li>
+                  </ul>
+              </li>
+              <li>
+                  <a href="programacion.html#domingos">PROGRAMACIÓN DOMINGOS/ DOMINGO EN FAMILIA <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></i></a>
+                  <ul class="dropdown-menu sub-menu">
+                      <li><a href="programacion.html#domingos"><b>06H00 A 07H00:</b> RESPLANDOR</a></li>
+                      <li><a href="programacion.html#aquientre"><b>07H00 A 08H00:</b> AQUÍ ENTRE NOS</a></li>
+                      <li><a href="programacion.html#misadominical"><b>08H00 A 09H00:</b> MISA DOMINICAL</a></li>
+                      <li><a href="programacion.html#pueblocamina"><b>09H00 A 10H30:</b> UN PUEBLO QUE CAMINA</a></li>
+                      <li><a href="programacion.html#saludactitud"><b>10H30 A 11H30:</b> SALUD CON ACTITUD</a></li>
+                      <li><a href="programacion.html#vocesesperanza"><b>11H30 A 12H00:</b> VOCES DE LA ESPERANZA</a></li>
+                      <li><a href="programacion.html#voceslibertad"><b>12H00 A 13H00:</b> VOCES DE LIBERTAD</a></li>
+                      <li><a href="programacion.html#cruzandosierra"><b>13H00 A 18H00:</b> CRUZANDO LA SIERRA</a></li>
+                      <li><a href="programacion.html#aylluii"><b>18H00 A 21H00:</b> AYLLUYARISHUNCHIK DOMINICAL</a></li>
+                  </ul>
+              </li>
+            </ul>
+          </li>
+
+            <li><a href="noticias.html" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Entérate de Todo lo que esta pasando.">NOTICIAS</a></li>
+            <li><a href="musica.html" data-toggle="tooltip" data-placement="bottom" data-container="body" title="Ubícanos en el mapa">CONTACTOS</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><p>REDES SOCIALES  </p></li>
+            <li><a href="https://www.facebook.com/Radio-Latacunga-AM-177078649074332/" target="_blank"><img src="../images/facebook.png" width="30px"></a></li>
+            <li><a href="https://twitter.com/radiolatacunga" target="_blank"><img src="../images/twitter.png" width="30px"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCWtD2HJsLVaZF498cCoB_yw" target="_blank"><img src="../images/youtube.png" width="30px"></a></li>
+            <li><a href=""><img src="../images/correo.png" width="30px"></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div>
+      <div class="container">
+        <a name="lunesviernes"></a>
+
+        <div class="row">
+          <div class="col-md-12 panelBackground">
+            <h1>PROGRAMACIÓN <a href="">DE LUNES A VIERNES</a></h1>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/santo_rosario.jpg">
+                  <div class="caption">
+                    <h3><b>04H00 A 04H30:</b> SANTO ROSARIO</h3>
+                    <p style="text-align: justify;">Al inicio de la nueva jornada empezamos con el rezo del Santo Rosario que es un diálogo que realizamos con la Santísima Virgen María, que nos conduce al encuentro íntimo con su Hijo amado, meditamos la vida de Jesús, por medio de ella, que también entra en nuestra vida, se hace Nuestra Madre.</p>
+                  </div>
+                  <a name="revistamiscelanea"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/radio_revista.jpg">
+                  <div class="caption">
+                    <h3><b>04h30 A 06H00: </b>Nuestra Palabra RADIO REVISTA MISCELANIA</h3>
+                    <p style="text-align: justify;">De lunes a sábado le acompañamos desde muy temprano en Nuestra Palabra tiene la misión de acompañar educar a la audiencia en su cotidianidad, construyendo diferentes modelos organizativos, sociales, agropecuarios, la religiosidad popular y respetando la diversidad cultural, donde todos los actores participen.<br>
+                    Programa dirigido con preferencia a la población indígena, campesina, comerciantes, transportistas y sectores sociales de la provincia.</p>
+                  </div>
+                  <a name="caminantes"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/el_informador.jpg">
+                  <div class="caption">
+                    <h3><b>06H00 A 08H00:</b> EL INFORMADOR I</h3>
+                    <p style="text-align: justify;">En la mañana le presentamos nuestro informativo con noticias de actualidad local, provincial, nacional e internacional. Además escuche entrevistas en vivo con actores que hacen noticia.</p>
+                  </div>
+                  <a name="informadori"></a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/caminantes.jpg">
+                  <div class="caption">
+                    <h3><b>08H00 A 09H00:</b> CAMINANTES</h3>
+                    <p style="text-align: justify;">Radio revista eclesial de evangelización y promoción humana, con énfasis en el discipulado misionero de la Iglesia particular de Latacunga de la Iglesia nacional y universal con participación de los agentes de pastoral.<br> 
+                    Programa dirigido a hombres y mujeres adultos, cristianos y no cristianos, movimientos y grupos laicales de la Diócesis de Latacunga.</p>
+                  </div>
+                  <a name="mediodia"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/rumbo_mediodia.jpg">
+                  <div class="caption">
+                    <h3><b>09h00 A 12H00: </b>RUMBO AL MEDIO DIA</h3>
+                    <p style="text-align: justify;">Radio revista de tres horas de duración con contenidos de formación humana  y cristiana, información, musicalización, servicios útiles para acompañar en las actividades diarias en el trascurso de la mañana.<br>
+                    Programa dirigido preferentemente a oficinistas, amas de casa, artesanos, agricultores.</p>
+                  </div>
+                  <a name="contactosur"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/contacto_sur.jpg">
+                  <div class="caption">
+                    <h3><b>12h00 a 12h15:</b> INFORMATIVO CONTACTO SUR</h3>
+                    <p style="text-align: justify;">Contacto Sur es el informativo de ALER (Asociación Latinoamericana de Educación Radiofónica). En Contacto Sur escuchas las noticia de América Latina con las voces del continente.</p>
+                  </div>
+                  <a name="ecuadorcontactoii"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/ecuador_contacto.jpg">
+                  <div class="caption">
+                    <h3><b>12h15 a 12h30:</b> ECUADOR EN CONTACTO II</h3>
+                    <p style="text-align: justify;">Informativo de la red informativa de la Coordinadora de Medios Populares y Comunitarios CORAPE, información actual de todas las provincias del Ecuador.</p>
+                  </div>
+                  <a name="musicavariada"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/musica_vaiada.jpg">
+                  <div class="caption">
+                    <h3><b>12h30 a 14h00: </b>MUSICA VARIADA</h3>
+                    <p style="text-align: justify;">Espacio de acompañamiento musical a la hora del almuerzo con motivaciones, historias y espacios culturales.</p>
+                  </div>
+                  <a name="sinlimites"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/sin_limites.jpg">
+                  <div class="caption">
+                    <h3><b>14h00 a 17h00:</b> SIN LIMITE</h3>
+                    <p style="text-align: justify;">Radio revista musical diseñada para acompañar las tardes, aprovechando espacios para educar, informar, entretener y dar lugar a la participación sin limite a los diferentes actores. <br>
+                    Programa dirigido a una audiencia urbano marginal y migrantes de la provincia.</p>
+                  </div>
+                  <a name="informadorii"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/el_informador.jpg">
+                  <div class="caption">
+                    <h3><b>17h00 a 18h00:</b> EL INFORMADOR II</h3>
+                    <p style="text-align: justify;">En la tarde le presentamos  noticias de actualidad local, provincias, nacional e internacional. Segmentos de opinión ciudadana temas de interés social, político y económico. </p>
+                  </div>
+                  <a name="ecuadorcontactoiii"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/ecuador_contacto.jpg">
+                  <div class="caption">
+                    <h3><b>18h00 a 18h30:</b> ECUADOR EN CONTACTO III:</h3>
+                    <p style="text-align: justify;">Informativo de la red informativa de la Coordinadora de Medios Populares y Comunitarios CORAPE, información actual de todas las provincias del Ecuador.</p>
+                  </div>
+                  <a name="ayllu"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/ayllu.jpg">
+                  <div class="caption">
+                    <h3><b>18h30 a 21h00:</b> AYLLUYARISHUNCHIK</h3>
+                    <p style="text-align: justify;">Radio revista formativa, informativa y participativa en el idioma kiwchua, con énfasis en los valores de la familia, derechos de la mujer, niños, jóvenes y su rol como eje dela sociedad. La participación, musicalización y la animación son base para conquistar a nuestra audiencia. <br>
+                    Programa dirigido a la mujer, familia campesina e indígena, migrantes del campo y la ciudad, dirigentes y bases de las organizaciones sociales y comunidades eclesiales de base.</p>
+                  </div>
+                  <a name="sabados"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 panelBackground">
+            <h1>PROGRAMACIÓN <a href="">SÁBADOS</a></h1>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/santo_rosario.jpg">
+                  <div class="caption">
+                    <h3><b>04H00 A 04H30:</b> SANTO ROSARIO</h3>
+                    <p style="text-align: justify;">Al inicio de la nueva jornada empezamos con el rezo del Santo Rosario que es un diálogo que realizamos con la Santísima Virgen María, que nos conduce al encuentro íntimo con su Hijo amado, meditamos la vida de Jesús, por medio de ella, que también entra en nuestra vida, se hace Nuestra Madre.</p>
+                  </div>
+                  <a name="radiorevista"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/radio_revista.jpg">
+                  <div class="caption">
+                    <h3><b>04h30 A 06H00: </b>Nuestra Palabra RADIO REVISTA MISCELANIA</h3>
+                    <p style="text-align: justify;">De lunes a sábado le acompañamos desde muy temprano en Nuestra Palabra tiene la misión de acompañar educar a la audiencia en su cotidianidad, construyendo diferentes modelos organizativos, sociales, agropecuarios, la religiosidad popular y respetando la diversidad cultural, donde todos los actores participen.  <br>
+                    Programa dirigido con preferencia a la población indígena, campesina, comerciantes, transportistas y sectores sociales de la provincia.</p>
+                  </div>
+                  <a name="resumeninformativo"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/resumen_informativo.jpg">
+                  <div class="caption">
+                    <h3><b>06h00 A 07H00:</b> RESUMEN INFORMATIVO</h3>
+                    <p style="text-align: justify;">Infórmese de las noticias sobresalientes de la semana.</p>
+                  </div>
+                  <a name="contruyendopalabra"></a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/contruyendo_palabra.jpg">
+                  <div class="caption">
+                    <h3><b>07h00 a 08h00:</b> CONSTRUYENDO LA PALABRA</h3>
+                    <p style="text-align: justify;">Programa semanal de opinión donde se analiza temas de interés ciudadano, con invitados locales, provinciales y nacionales.</p>
+                  </div>
+                  <a name="sabadoasabado"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/sabado_a_sabado.jpg">
+                  <div class="caption">
+                    <h3><b>08h00 a 10h00: </b>SABADO A SABADO</h3>
+                    <p style="text-align: justify;"> Programa semana de música nacional clásica con temas culturales y participación de la audiencia.</p>
+                  </div>
+                  <a name="alpargatas"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/alpargatas.jpg">
+                  <div class="caption">
+                    <h3><b>13h00 a 18h00:</b> CHUQUIRAHUA Y ALPARGATAS</h3>
+                    <p style="text-align: justify;">Revista semanal con temas útiles y culturales.</p>
+                  </div>
+                  <a name="ayllui"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/ayllu.jpg">
+                  <div class="caption">
+                    <h3><b>18h00 a 21h00:</b> AYLLUYARISHUNCHIK</h3>
+                    <p style="text-align: justify;">Radio revista formativa, informativa y participativa en el idioma kiwchua, con énfasis en los valores de la familia, derechos de la mujer, niños, jóvenes y su rol como eje dela sociedad. La participación, musicalización y la animación son base para conquistar a nuestra audiencia.<br>
+                    Programa dirigido a la mujer, familia campesina e indígena, migrantes del campo y la ciudad, dirigentes y bases de las organizaciones sociales y comunidades eclesiales de base</p>
+                  </div>
+                  <a name="domingos"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 panelBackground">
+            <h1>PROGRAMACIÓN DOMINGOS<a href="">/ DOMINGO EN FAMILIA</a></h1>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/resplandor.jpg">
+                  <div class="caption">
+                    <h3><b>06H00 A 07H00:</b> RESPLANDOR</h3>
+                    <p style="text-align: justify;">Programa dominical con acompañamiento musical y motivacional.</p>
+                  </div>
+                  <a name="aquientre"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/aqui_entre.jpg">
+                  <div class="caption">
+                    <h3><b>07H00 A 08H00: </b>AQUÍ ENTRE NOS</h3>
+                    <p style="text-align: justify;">Radio revista eclesial donde se da a conocer toda la información generada durante la semana en la Diócesis de Latacunga. </p>
+                  </div>
+                  <a name="misadominical"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/misa_dominial.jpg">
+                  <div class="caption">
+                    <h3><b>08H00 A 09H00:</b> MISA DOMINICAL</h3>
+                    <p style="text-align: justify;"> Transmisión de la eucaristía dominical desde la Catedral de Latacunga un servicio religiosa para las personas que se encuentran imposibilitadas de acudir al templo.</p>
+                  </div>
+                  <a name="pueblocamina"></a>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/pueblo_Camina.jpg">
+                  <div class="caption">
+                    <h3><b>09H00 A 10H30:</b> UN PUEBLO QUE CAMINA</h3>
+                    <p style="text-align: justify;">Programa producido por los laicos de la Diócesis de Latacunga llevando el evangelio a la realidad. </p>
+                  </div>
+                  <a name="saludactitud"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/salud_actitud.jpg">
+                  <div class="caption">
+                    <h3><b>10H30 A 11H30: </b>SALUD CON ACTITUD</h3>
+                    <p style="text-align: justify;">Programa de salud preventiva.</p>
+                  </div>
+                  <a name="vocesesperanza"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/voces_esperanza.jpg">
+                  <div class="caption">
+                    <h3><b>11H30 A 12H00:</b> VOCES DE LA ESPERANZA</h3>
+                    <p style="text-align: justify;">Programa de inclusión social con temas discapacidad.</p>
+                  </div>
+                  <a name="voceslibertad"></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/voces_libertad.jpg">
+                  <div class="caption">
+                    <h3><b>12H00 A 13H00:</b> VOCES DE LIBERTAD</h3>
+                    <p style="text-align: justify;">Programa producido por personas privadas de libertad desde su experiencia. </p>
+                  </div>
+                  <a name="cruzandosierra"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/cruzando_sierra.jpg">
+                  <div class="caption">
+                    <h3><b>13H00 A 18H00:</b> CRUZANDO LA SIERRA</h3>
+                    <p style="text-align: justify;">Programa con música amena y variada que acompaña al finalizar el fin de semana. </p>
+                  </div>
+                  <a name="aylluii"></a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <img width="100%" src="../images/ayllu.jpg">
+                  <div class="caption">
+                    <h3><b>18H00 A 21H00:</b> AYLLUYARISHUNCHIK DOMINICAL</h3>
+                    <p style="text-align: justify;">Radio revista formativa, informativa y participativa en el idioma kiwchua, con énfasis en los valores de la familia, derechos de la mujer, niños, jóvenes y su rol como eje dela sociedad. La participación, musicalización y la animación son base para conquistar a nuestra audiencia. <br>
+                    Programa dirigido a la mujer, familia campesina e indígena, migrantes del campo y la ciudad, dirigentes y bases de las organizaciones sociales y comunidades eclesiales de base. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panelBackground">
+          <h5>Copyright © 2017 RADIO LATACUNGA<h5>
+        </div>
+
+
+      </div><!-- /.container -->
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../dist/js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
